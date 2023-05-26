@@ -1,8 +1,73 @@
-.table {
-    border-style: 'dotted';
-    border-color: "black"; 
+.card-table {
+    border-collapse: collapse;
+    width: 100%;
 }
-#card{
-     border-style: 'dotted';
-    border-color: "black"; 
+
+.card-table th,
+.card-table td {
+    border: 1px dotted black;
+    padding: 5px;
+}
+
+
+.header-input {
+    width: 50px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.header-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.6);
+}
+
+.save-button {
+    float: right;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button1 {
+    background-color: rgb(78, 78, 198);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+}
+
+.button1:hover {
+    background-color: blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button2 {
+    background-color: rgb(221, 56, 38);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+}
+
+.button2:hover {
+    background-color: red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
